@@ -1,0 +1,54 @@
+body {
+  height: 3000px;
+}
+.fixed {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  top: 0px;
+}
+.absolute-container {
+  right: 10px;
+  position: absolute;
+  display: flex;
+  top: 15px;
+}
+.border {
+  border: 1px solid black;
+  height: 50px;
+  width: 90px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.absolute {
+  position: absolute;
+  top: 22px;
+}
+.name {
+  height: 900px;
+  width: 100%;
+  background-color: Coral;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  height:1000px;
+  background-color: red;
+  display: flex;
+  jutify-content: center;
+  position: static
+}
+.profile {
+  width:100%;
+  height 70px;
+  background-color: cyan;
+}
